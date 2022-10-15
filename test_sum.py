@@ -1,7 +1,7 @@
 import unittest
 from functions import _sum
 
-class Min(unittest.TestCase):
+class Sum(unittest.TestCase):
     def test_sum(self):
         self.assertEqual(_sum([1, 2, 3, 4, 5, 6, 7, 8, 9]), 45)
 

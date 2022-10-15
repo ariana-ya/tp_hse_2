@@ -1,7 +1,7 @@
 import unittest
 from functions import _max
 
-class Min(unittest.TestCase):
+class Max(unittest.TestCase):
     def test_max(self):
         self.assertEqual(_max([404, 505, 808]), 808)
 
